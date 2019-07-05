@@ -7,7 +7,7 @@ import { NewService } from '../new.service';
 
 
 @NgModule({
-  declarations: [ 
+  declarations: [
     P1Component,
     C1Component,
     C2Component
@@ -15,10 +15,10 @@ import { NewService } from '../new.service';
   imports: [
     CommonModule
   ],
-  exports:[
+  exports: [
     P1Component
   ],
-  providers:[
+  providers: [
     NewService
   ]
 })

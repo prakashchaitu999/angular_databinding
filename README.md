@@ -1,4 +1,57 @@
-# Scenario
+# SCENARIOS
+
+## scenario 1
+In this scenario, we created a component, say component1. A user should be able to enter text in the
+.html template file of the component. The component should print out the user text to console.
+Created the component in a scenario1 folder of my project. All files of the component are their
+inside the scenario1 folder.
+
+##scenario 2
+In this scenario, created a component, say test1. A user should be able to enter text in the
+.html template file of the component. The template should display the text as the user types.
+Created the task in a scenario2 folder of my project. All files of the component are their inside the
+scenario2 folder.
+
+##scenario 3
+In this scenario, created two components, say parent and child. 
+A user should be able to enter text in the .html template file of parent. The template of
+child should display the text.
+Created the task in a scenario3 folder of my project. All files of the components are their inside the
+scenario3 folder.
+
+##scenario 4
+In this scenario, created two components, say super and sub. super is a
+parent of sub.
+A user should be able to enter text in the .html template file of sub. The template of
+super should display the text.
+Created the task in a scenario4 folder of my project. All files of the components are their inside the
+scenario4 folder.
+
+##scenario 5
+In this scenario, created three components, say red, green and blue.
+red is a parent of green, and green is a parent of blue.
+A user should be able to enter text in the .html template file of blue. The template of
+red (grandparent) should display the text.
+Created the task in a scenario5 folder of my project. All files of the components are their inside the
+scenario5 folder.
+
+##scenario 6
+In this scenario, create three components, say parent1, child1, and child2.
+parent1 is a parent of both child1 and child2.
+A user should be able to enter text in the .html template file of child1. The template of
+child2 (sibling) should display the text.
+Created the task in a scenario6 folder of my project. All files of the components are their inside the 
+scenario6 folder.
+
+##scenario 7
+In this scenario, create three components, say p1, c1 and c2
+p1 is a parent of both c1 and c2.
+A user should be able to enter text in the .html template file of c1. The template of
+c2 (sibling) should display the text. By using a service we have to transfer the information from child1 to child2.
+
+Created the task in a scenario6 folder of my project. All files of the components are their inside the 
+scenario6 folder.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
@@ -6,22 +59,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Component Generation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component.
 
-## Build
+## Service Generation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng generate service service-name` to generate a new service.
 
-## Running unit tests
+## Module Generation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng generate module module-name` to generate a new module.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
