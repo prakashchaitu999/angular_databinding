@@ -11,7 +11,7 @@ export class Component1Component implements OnInit {
 
   ngOnInit() {
    }
-  calling(chaitanya){
+  calling(chaitanya) {
     console.log(chaitanya);
-  } 
+  }
 }
