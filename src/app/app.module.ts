@@ -4,50 +4,32 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Test1Component } from './scenario2/test1/test1.component';
-import { ParentComponent } from './scenario3/parent/parent.component';
-import { ChildComponent } from './scenario3/child/child.component';
-import { SuperComponent } from './scenario4/super/super.component';
-import { SubComponent } from './scenario4/sub/sub.component';
-import { RedComponent } from './scenario5/red/red.component';
-import { GreenComponent } from './scenario5/green/green.component';
-import { BlueComponent } from './scenario5/blue/blue.component';
-import { Parent1Component } from './scenario6/parent1/parent1.component';
-import { Child1Component } from './scenario6/child1/child1.component';
-import { Child2Component } from './scenario6/child2/child2.component';
-import { C1Component } from './scenario7/c1/c1.component';
-import { C2Component } from './scenario7/c2/c2.component';
-import { NewService } from './new.service';
-import { P1Component } from './scenario7/p1/p1.component';
-
 import { Scenario1Module } from './scenario1/scenario1.module';
+import { Scenario2Module } from './scenario2/scenario2.module';
+import { Scenario3Module } from './scenario3/scenario3.module';
+import { Scenario4Module } from './scenario4/scenario4.module';
+import { Scenario5Module } from './scenario5/scenario5.module';
+import { Scenario6Module } from './scenario6/scenario6.module';
+import { Scenario7Module } from './scenario7/scenario7.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Test1Component,
-    ParentComponent,
-    ChildComponent,
-    SuperComponent,
-    SubComponent,
-    RedComponent,
-    GreenComponent,
-    BlueComponent,
-    Parent1Component,
-    Child1Component,
-    Child2Component,
-    C1Component,
-    C2Component,
-    P1Component
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    Scenario1Module
+    Scenario1Module,
+    Scenario2Module,
+    Scenario3Module,
+    Scenario4Module,
+    Scenario5Module,
+    Scenario6Module,
+    Scenario7Module
   ],
-  providers: [NewService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
