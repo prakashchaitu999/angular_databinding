@@ -70,3 +70,6 @@ Run `ng generate service service-name` to generate a new service.
 
 Run `ng generate module module-name` to generate a new module.
 
+## link of this repository
+
+https://prakashchaitu999.github.io/angular_databinding/
